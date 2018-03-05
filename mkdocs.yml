@@ -1,0 +1,84 @@
+site_name: Citrix NetScaler SD-WAN 10.0 NITRO API Documentation
+site_description: Citrix NetScaler SD-WAN 10.0 NITRO API Documentation
+theme_dir: citrix-sdk
+markdown_extensions:
+  - admonition
+  - codehilite
+  -  toc:
+      anchorlink: true
+
+pages:
+ - Getting Started Guide: index.md
+ - Configuration:
+   - login: config_v2/login.md
+   - change_management: config_v2/change_management.md
+   - config_packages: config_v2/config_packages.md
+   - dynamic_route: config_v2/dynamic_route.md
+   - file_upload_to_inbox: config_v2/file_upload_to_inbox.md
+   - get_package_file: config_v2/get_package_file.md
+   - license_info: config_v2/license_info.md
+   - local_change_management: config_v2/local_change_management.md
+   - local_license: config_v2/local_license.md
+   - local_users: config_v2/local_users.md
+   - management_ip: config_v2/management_ip.md
+   - os_partition: config_v2/os_partition.md
+   - radius_settings: config_v2/radius_settings.md
+   - remote_license: config_v2/remote_license.md
+   - service: config_v2/service.md
+   - system_options: config_v2/system_options.md
+   - tacacs_settings: config_v2/tacacs_settings.md
+   - update_schedule: config_v2/update_schedule.md
+   - wanlink: config_v2/wanlink.md
+ - Monitoring:
+   - applications: monitor_v2/applications.md
+   - application_rules: monitor_v2/application_rules.md
+   - classes: monitor_v2/classes.md
+   - firewall_connection_stats: monitor_v2/firewall_connection_stats.md
+   - firewall_filter_stats: monitor_v2/firewall_filter_stats.md
+   - firewall_nat_stats: monitor_v2/firewall_nat_stats.md
+   - flows: monitor_v2/flows.md
+   - ilbflows: monitor_v2/ilbflows.md
+   - paths: monitor_v2/paths.md
+   - rules: monitor_v2/rules.md
+   - tcptermflows: monitor_v2/tcptermflows.md
+   - virtual_paths: monitor_v2/virtual_paths.md
+   - wanlinkstat: monitor_v2/wanlinkstat.md
+ - Configuration Editor:
+   - access_interface: config_editor_v2/access_interface.md
+   - application_qos: config_editor_v2/application_qos.md
+   - centralized_licensing_global: config_editor_v2/centralized_licensing_global.md
+   - centralized_licensing_site: config_editor_v2/centralized_licensing_site.md
+   - config_editor_classes: config_editor_v2/config_editor_classes.md
+   - config_editor_rules: config_editor_v2/config_editor_rules.md
+   - dynamic_virtual_path_obj: config_editor_v2/dynamic_virtual_path_obj.md
+   - firewall: config_editor_v2/firewall.md
+   - firewall_destination_nat_policy_obj: config_editor_v2/firewall_destination_nat_policy_obj.md
+   - firewall_destination_policy_delete: config_editor_v2/firewall_destination_policy_delete.md
+   - firewall_dynamic_nat_policy_delete: config_editor_v2/firewall_dynamic_nat_policy_delete.md
+   - firewall_dynamic_nat_policy_obj: config_editor_v2/firewall_dynamic_nat_policy_obj.md
+   - firewall_local_policy_delete: config_editor_v2/firewall_local_policy_delete.md
+   - firewall_local_policy_obj: config_editor_v2/firewall_local_policy_obj.md
+   - firewall_policy_template: config_editor_v2/firewall_policy_template.md
+   - firewall_policy_template_delete: config_editor_v2/firewall_policy_template_delete.md
+   - firewall_policy_template_obj: config_editor_v2/firewall_policy_template_obj.md
+   - firewall_settings_delete: config_editor_v2/firewall_settings_delete.md
+   - firewall_settings_obj: config_editor_v2/firewall_settings_obj.md
+   - firewall_static_nat_policy_delete: config_editor_v2/firewall_static_nat_policy_delete.md
+   - firewall_static_nat_policy_obj: config_editor_v2/firewall_static_nat_policy_obj.md
+   - interface_groups: config_editor_v2/interface_groups.md
+   - mpls_queue: config_editor_v2/mpls_queue.md
+   - mpls_queue_obj: config_editor_v2/mpls_queue_obj.md
+   - path: config_editor_v2/path.md
+   - path_obj: config_editor_v2/path_obj.md
+   - port_forwarding_rules_obj: config_editor_v2/port_forwarding_rules_obj.md
+   - region: config_editor_v2/region.md
+   - sites: config_editor_v2/sites.md
+   - subnets_obj: config_editor_v2/subnets_obj.md
+   - virtual_ip_addresses: config_editor_v2/virtual_ip_addresses.md
+   - virtual_path_site: config_editor_v2/virtual_path_site.md
+   - virtualpaths: config_editor_v2/virtualpaths.md
+   - wan_links: config_editor_v2/wan_links.md
+ - Diagnostics:
+   - packet_capture: diag_v2/packet_capture.md
+ - Download:
+   - pcap_download: download_v2/pcap_download.md
