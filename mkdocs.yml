@@ -34,8 +34,8 @@ theme:
 
 # Google Analytics:
 google_analytics:
-  - 'UA-59929653-12'
-  - 'auto'
+  - UA-59929653-12
+  - auto
 
 
 # Customization
