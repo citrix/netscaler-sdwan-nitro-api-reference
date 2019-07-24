@@ -32,12 +32,6 @@ theme:
   favicon: /media/favicon.ico
   logo: https://developer-docs.citrix.com/_static/Citrix_Logo_Black.png
 
-# Google Analytics:
-google_analytics:
-  - UA-59929653-12
-  - auto
-
-
 # Customization
 extra:
   social:
