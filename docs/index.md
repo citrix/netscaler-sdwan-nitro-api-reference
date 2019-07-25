@@ -1,4 +1,4 @@
-# Citrix NetScaler SD-WAN 10.0 - NITRO REST API
+# Citrix NetScaler SD-WAN 11.0 - NITRO REST API
 
 ## NITRO API
 
@@ -235,6 +235,15 @@ Below table will clearly explain about the features (Filters/Paginations/MaxStat
 | Monitoring API Name | Filters | Pagination | Max Stat Filter |
 |---|---|---|---|
 | `applications` | YES | YES | NO |
-| `application_rules` | YES | YES | NO || `classes` | YES | YES | NO || `firewall_connection_stats` | YES | NO | YES || `firewall_filter_stats` | YES | NO | YES || `firewall_nat_stats` | YES | NO | YES |
+| `application_rules` | YES | YES | NO |
+| `classes` | YES | YES | NO |
+| `firewall_connection_stats` | YES | NO | YES |
+| `firewall_filter_stats` | YES | NO | YES |
+| `firewall_nat_stats` | YES | NO | YES |
 | `flows` | YES | NO | YES |
-| `ilbflows` | YES | NO | YES || `paths` | YES | YES | NO || `rules` | YES | YES | NO || `tcptermflows` | YES | NO | YES || `virtual_paths` | NO | NO | NO || `wanlinkstat` | YES | YES | NO |
+| `ilbflows` | YES | NO | YES |
+| `paths` | YES | YES | NO |
+| `rules` | YES | YES | NO |
+| `tcptermflows` | YES | NO | YES |
+| `virtual_paths` | NO | NO | NO |
+| `wanlinkstat` | YES | YES | NO |
